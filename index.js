@@ -21,3 +21,6 @@ function Circle(radius) {
   Shape.call(this);
   this.radius = radius;
 }
+
+Circle.prototype = Object.create(Shape.prototype);
+Circle.prototype.constructor = Circle;
