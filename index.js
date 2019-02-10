@@ -7,11 +7,14 @@ Point.prototype.toString = function() {
   return("(" + this.x + "," + this.y + ")");
 }
 
-function Shape() {}
 
 function Side(length) {
   this.length = length;
 }
+
+
+function Shape() {}
+
 
 Shape.prototype.addToPlane = function(x, y) {
   this.position = new Point(x,y);
