@@ -43,6 +43,7 @@ function Polygon(sides) {
 
 
 Polygon.prototype = Object.create(Shape.prototype);
+
 Polygon.prototype.constructor = Polygon;
 
 Polygon.prototype.perimeter = function() {
