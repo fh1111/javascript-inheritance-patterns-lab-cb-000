@@ -33,7 +33,7 @@ Circle.prototype.diameter = function() {
   return(this.radius*2);
 }
 Circle.prototype.area = function() {
-  return(Math.PI * this.radius^2);
+  return(3.141592 * this.radius^2);
 }
 Circle.prototype.circumference = function() {
   return(2 * Math.PI * this.radius);
