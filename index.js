@@ -9,6 +9,10 @@ Point.prototype.toString = function() {
 
 function Shape() {}
 
+function Side(length) {
+  this.length = length;
+}
+
 Shape.prototype.addToPlane = function(x, y) {
   this.position = new Point(x,y);
 }
